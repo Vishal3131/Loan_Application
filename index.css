@@ -1,0 +1,107 @@
+.main {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+.head{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+.input-group span{
+    color: red;
+    font-size: 13px;
+}
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Confirm.html page css */
+
+.main-confirm{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.confirm span{
+    font-size: 20px;
+}
+.text-box{
+    display: flex;
+    justify-content: center;
+    margin-top:2rem;
+}
+ .text-box input{
+    width: 200px;
+    height: 35px;
+    padding: 6px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.text-box .submit-Otpbutton{
+ width:5rem;
+padding: 10px;
+background-color: #007BFF;
+border: none;
+border-radius: 4px;
+color: white;
+font-size: 16px;
+cursor: pointer;
+}
+
+.error{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.error span{
+    font-size: 17px;
+    color: red;
+}

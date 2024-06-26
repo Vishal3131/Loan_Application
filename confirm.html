@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>confirmatiom</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main-confirm">
+    <div class="confirm">
+        <span>Dear <span id="name"></span>,
+            Thank you for your inquiry. A 4 digit verification number has been sent to your email: <span id="email"></span> ,<br> please enter it in the following box and submit for confirmation:
+            </span>
+
+            <div class="text-box" id="textblock">
+                <input type="text" id="otp" class="opt-input"/>
+                <input type="button" id="submitOtp" value="Validate" class="submit-Otpbutton"/>
+            </div>
+            <div class="error">
+                <span id="ErrorMsg"></span>
+            </div>
+            
+    </div>
+</div>
+
+    <script src="confirm.js"></script>
+</body>
+</html>
