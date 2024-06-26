@@ -68,8 +68,8 @@ function validatePan(){                                                       //
 
 function calculateLoan(){                                           // here is done, All validation on loan
    const laonAmount=parseFloat(loanInput.value.trim());
-   let num= laonAmount.toString();                                // convert number to string.
- if(num.length>9){
+   let num= laonAmount.toString();                           // convert number to string.
+ if(isNaN(laonAmount)|| num.length>9){
     loanMsg.innerText='upto 9 digits allow'
     loanMsg.style.color='red'
     return false;
